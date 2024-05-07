@@ -5,7 +5,7 @@ import { Routes, Route, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Home from "./pages/Home";
 function App() {
-  const [token, setToken] = useState("nmb");
+  const [token, setToken] = useState("");
   const navigate = useNavigate();
   useEffect(() => {
     if (localStorage.getItem("token")) {
