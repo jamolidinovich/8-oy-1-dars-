@@ -1,0 +1,32 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+  margin-left: 150px;
+}
+.ul {
+  display: flex;
+  gap: 40px;
+}
+.li {
+  display: flex;
+  color: #92929d;
+  gap: 7px;
+  transition: all 0.5s;
+}
+.li:hover {
+  color: blue;
+}
+.ic {
+  display: flex;
+  gap: 10px;
+}
+
+.austin {
+  font-size: 18px;
+  margin-left: 10px;
+  color: #171725;
+}
